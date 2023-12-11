@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "677527414811",
+    "firebase_url": "https://trashhub-e7744-default-rtdb.firebaseio.com",
+    "project_id": "trashhub-e7744",
+    "storage_bucket": "trashhub-e7744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677527414811:android:a68ea7b5a09eef475670be",
+        "android_client_info": {
+          "package_name": "com.capstone.project.trashhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677527414811-hgmlf6c83rnbeqpjjbsc64oh5n39i61j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstone.project.trashhub",
+            "certificate_hash": "1f60ef49e2f66d8ffc76724e50b3c5204d66b59d"
+          }
+        },
+        {
+          "client_id": "677527414811-slbl7mm0ma5dpf3qf7k3gah95e3alvq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC07qS7eL5Os9lP2MIOXWNiKA_DlU8ffe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677527414811-slbl7mm0ma5dpf3qf7k3gah95e3alvq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

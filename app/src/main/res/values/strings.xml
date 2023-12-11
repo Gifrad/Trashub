@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TrashHub</string>
+    <!--  customview  -->
+    <string name="email_is_invalid">Email tidak valid</string>
+    <string name="password_min_6_char">password kurang dari 6 character</string>
+    <!--  customview  -->
+
+    <!--  Ui login & register  -->
+    <string name="title_login">Siap untuk mengelola sampah</string>
+    <string name="subtitle_login">Masukkan data diri anda melalui TrashHub App</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="login_option">Atau Masuk sebagai Bank Sampah</string>
+    <string name="title_register">Kelola sampah anda</string>
+    <string name="subtitle_register">Dengan mendaftarkan diri anda melalui TrashHub App</string>
+    <string name="name">Nama</string>
+    <string name="conf_pass">Ulangi Password</string>
+    <!--  Ui login & register  -->
+
+    <!--  UI Home  -->
+    <string name="cari_bank_sampah">Cari bank sampah terdekat</string>
+    <string name="hai_username">Hai Username</string>
+    <string name="selamat_pagi">Selamat pagi</string>
+    <string name="jumlah_poin">200 poin</string>
+    <string name="paragraf_home">Scan sampahmu agar mendapatkan pengetahuan</string>
+    <string name="angkut_sampah">Angkut Sampah</string>
+    <string name="jual_sampah">Jual Sampah</string>
+    <string name="riwayat_pesanan">Riwayat Pesanan</string>
+    <string name="Title_home">Daftar Bank Sampah</string>
+    <string name="sub_title_home">Temukan Bank sampah pilihanmu</string>
+
+    <!--  UI Home  -->
+
+    <!--  UI Profile  -->
+    <string name="appbar">Profile</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="no_telepon">No Telepon</string>
+    <string name="alamat">Alamat</string>
+    <string name="simpan">Simpan</string>
+    <!--  UI Profile  -->
+
+    <!-- UI Search-->
+    <string name="cari_bank_sampah_terdekat">Cari Bank Sampah Terdekat</string>
+    <string name="temukan_bank_sampah_pilihanmu">Temukan bank sampah pilihanmu</string>
+    <string name="data_tidak_ditemukan">Data Tidak Ditemukan</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- UI Search-->
+
+
+    <!-- Scan Sampah -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perubahan_cardboard">Rp 1000/kg</string>
+    <string name="perubahan_metal">Rp 1500/kg</string>
+    <string name="perubahan_plastic">Rp 500/kg</string>
+    <string name="perubahan_sampah">-</string>
+    <string name="perubahan_glass">Rp 500/kg</string>
+    <string name="perubahan_paper">Rp 1000/kg</string>
+    <string name="take_picture">Ambil Gambar</string>
+    <string name="classification_as">Diklasifikasikan sebagai:</string>
+    <string name="result">Hasil</string>
+    <string name="confidence_level">Tingkat Akurasi:</string>
+    <string name="list_accuration">Akurasi</string>
+    <string name="detail">Detail:</string>
+    <string name="price">Harga =</string>
+    <string name="prive_value">-</string>
+    <!-- Scan Sampah -->
+
+    <!-- Detail Bank Sampah -->
+    <string name="tab_view">Detail</string>
+    <string name="message">Message</string>
+    <!-- Detail Bank Sampah -->
+    <string name="image_home_1" tools:ignore="ReferenceType">@drawable/image_home_4</string>
+    <string name="image_home_2" tools:ignore="ReferenceType">@drawable/image_home</string>
+    <string name="image_home_3" tools:ignore="ReferenceType">@drawable/image_home_2</string>
+    <string name="image_home_4" tools:ignore="ReferenceType">@drawable/image_home_3</string>
+
+</resources>

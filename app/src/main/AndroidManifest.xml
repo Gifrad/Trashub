@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.capstone.project.trashhub">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_trashub"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_trashub"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrashHub"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".view.success.SuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.transaksi.TransaksiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.scan.ResultScanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.detailbanksampah.DetailBankSampahActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCO8pXhlZhFob_DDM-1ZXF8EDk2cdoDeWM" />
+
+        <activity
+            android:name=".view.maps.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".view.search.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.login.LoginActivity"
+            android:exported="false">
+        </activity>
+        <activity android:name=".view.splash.SplashScreenActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.home.HomeActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

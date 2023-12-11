@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.home.HomeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bg_header"
+            android:layout_width="0dp"
+            android:layout_height="170dp"
+            android:background="@drawable/bg_home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:id="@+id/search_layout"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/custom_searchview"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/et_search"
+                    android:layout_width="193dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="9dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/cari_bank_sampah"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <ImageButton
+                    android:id="@+id/img_search"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/icon_search" />
+
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/img_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="23dp"
+                android:src="@drawable/icon_message"
+                app:layout_constraintStart_toEndOf="@id/search_layout"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/img_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:src="@drawable/icon_profile"
+                app:layout_constraintEnd_toStartOf="@+id/img_logout"
+                app:layout_constraintStart_toEndOf="@+id/img_message"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/img_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/icon_logout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/sapaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_sapaan"
+                app:layout_constraintEnd_toEndOf="@id/img_logout"
+                app:layout_constraintStart_toStartOf="@id/search_layout"
+                app:layout_constraintTop_toBottomOf="@id/search_layout">
+
+                <LinearLayout
+                    android:layout_width="179dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="9dp"
+                        android:text="@string/hai_username"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_sapaan_waktu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity=""
+                        android:layout_marginStart="16dp"
+                        android:layout_marginBottom="9dp"
+                        android:text="@string/selamat_pagi"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icon_line" />
+
+                <ImageView
+                    android:id="@+id/icon_coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="16dp"
+                    android:src="@drawable/icon_coin" />
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/jumlah_poin"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_bg_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-25dp"
+            android:background="@drawable/ic_bg_scan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bg_header">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/icon_scan" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="13dp"
+                android:textColor="@color/black"
+                android:text="@string/paragraf_home"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/icon_angkut_sampah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_angkut_sampah"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/icon_riwayat"
+            app:layout_constraintTop_toBottomOf="@id/layout_bg_scan" />
+
+        <ImageView
+            android:id="@+id/icon_jual_sampah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_jual_sampah"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/icon_angkut_sampah"
+            app:layout_constraintTop_toBottomOf="@+id/layout_bg_scan" />
+
+        <ImageView
+            android:id="@+id/icon_riwayat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_riwayat"
+            app:layout_constraintEnd_toStartOf="@id/icon_maps"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_bg_scan" />
+
+        <ImageView
+            android:id="@+id/icon_maps"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/icon_maps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/icon_jual_sampah"
+            app:layout_constraintTop_toBottomOf="@id/layout_bg_scan" />
+
+        <TextView
+            android:id="@+id/tv_angkut_sampah"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/angkut_sampah"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/icon_angkut_sampah"
+            app:layout_constraintStart_toStartOf="@+id/icon_angkut_sampah"
+            app:layout_constraintTop_toBottomOf="@id/icon_angkut_sampah" />
+
+        <TextView
+            android:id="@+id/tv_jual_sampah"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jual_sampah"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/icon_jual_sampah"
+            app:layout_constraintStart_toStartOf="@+id/icon_jual_sampah"
+            app:layout_constraintTop_toBottomOf="@id/icon_jual_sampah" />
+
+        <TextView
+            android:id="@+id/tv_riwayat"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/riwayat_pesanan"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/icon_riwayat"
+            app:layout_constraintStart_toStartOf="@+id/icon_riwayat"
+            app:layout_constraintTop_toBottomOf="@id/icon_riwayat" />
+
+        <TextView
+            android:id="@+id/tv_maps"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Bank Sampah Terdekat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/icon_maps"
+            app:layout_constraintStart_toStartOf="@+id/icon_maps"
+            app:layout_constraintTop_toBottomOf="@id/icon_maps" />
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/img_home"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            app:auto_cycle="true"
+            app:delay="0"
+            app:period="1000"
+            app:corner_radius="15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_maps" />
+
+        <TextView
+            android:id="@+id/tv_rekomendasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/Title_home"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_home" />
+
+        <TextView
+            android:id="@+id/tv_sub_rekomendasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/sub_title_home"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_rekomendasi" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_recomendasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_sub_rekomendasi" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/rv_recomendasi"
+            app:layout_constraintEnd_toEndOf="@id/rv_recomendasi"
+            app:layout_constraintStart_toStartOf="@id/rv_recomendasi"
+            app:layout_constraintTop_toTopOf="@id/rv_recomendasi"
+            android:visibility="gone"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
