@@ -1,5 +1,27 @@
 TrasHub - Bangkit 2022 - C22-PS111
 ==
+<img src="https://res.cloudinary.com/dmwszzxcc/image/upload/v1702287626/Bangkit/Logo/kmmlgrpejafhiomjscbi.jpg" width="200" />
+
+## Members Mobile Development
+
+<table>
+    <tr>
+        <th>Nama</th>
+        <th>Universitas</th>
+        <th>Github Account</th>
+    </tr>
+    <tr>
+        <td>Gilang Fitra Ramadhana</td>
+        <td>Universitas Bina Sarana Informatika</td>
+        <td><a href="https://github.com/Gifrad">Gifrad</a></td>
+    </tr>
+     <tr>
+        <td>Fathan Azka Pradana</td>
+        <td>Universitas Amikom Yogyakarta</td>
+        <td><a href="https://github.com/fathanazka354">fathanazka354</a></td>
+    </tr>
+</table>
+
 
 About the project
 --
