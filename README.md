@@ -51,7 +51,7 @@ A few features, which is:
 - Subscribe with garbage bank
 - Upload image and edit profile
 
-## Priview Project 
+## Preview Project 
 ### User Registration
 <img src="https://res.cloudinary.com/dmwszzxcc/image/upload/v1702354494/Bangkit/demo/zrpwwvlvbhvdx8mgyg9a.gif" width="400" />
 
