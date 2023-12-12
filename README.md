@@ -50,3 +50,20 @@ A few features, which is:
 - Detection type of trash
 - Subscribe with garbage bank
 - Upload image and edit profile
+
+## Priview Project 
+### User Registration
+<img src="https://res.cloudinary.com/dmwszzxcc/image/upload/v1702354494/Bangkit/demo/zrpwwvlvbhvdx8mgyg9a.gif" width="400" />
+
+### Edit Profile
+<img src="https://res.cloudinary.com/dmwszzxcc/image/upload/v1702355071/Bangkit/demo/qi7sjm6ygq2vtvsf1w6l.gif" width="400" />
+
+### Detection Type Of Trash
+<img src="https://res.cloudinary.com/dmwszzxcc/image/upload/v1702355312/Bangkit/demo/ptkhzau8hdbhibb3mrxd.gif" width="400" />
+
+### Show Nearby Garbage Bank
+<img src="https://res.cloudinary.com/dmwszzxcc/image/upload/v1702355527/Bangkit/demo/eene7sw8nb97tmocenky.gif" width="400" />
+
+### Transaction 
+<img src="https://res.cloudinary.com/dmwszzxcc/image/upload/v1702355788/Bangkit/demo/oewvbpleolvskhdtydxi.gif" width="400" />
+
